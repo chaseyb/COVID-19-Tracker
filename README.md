@@ -3,8 +3,8 @@
 A COVID-19 tracker application that fetches location-based updates, trending global news, and helpful local resources. We built this application to help a user get quick and reliable information from reliable sources. This web application was built using HTML, CSS, and JavaScript.
 
 ## Table of Contents ##
-- [Team_Members](#Team_Members)
-- [User_Story](#User_Story)
+- [Team-Members](#Team-Members)
+- [User-Story](#User-Story)
 - [APIs](#APIs)
 - [Wireframe](#Wireframe)
 - [Tasks](#Tasks)
