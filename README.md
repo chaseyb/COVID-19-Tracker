@@ -1,5 +1,7 @@
 # COVID-19 Tracker
 
+<p align="center"><img src="assets/images/screenshot-1.png"></p>
+
 A COVID-19 tracker application that fetches location-based updates, trending global news, and helpful local resources. We built this application to help a user get quick and reliable information from reliable sources. This web application was built using HTML, CSS, and JavaScript.
 
 ## Table of Contents ##
