@@ -7,7 +7,6 @@ A COVID-19 tracker application that fetches location-based updates, trending glo
 - [User-Story](#User-Story)
 - [Usage](#-usage)
 - [APIs](#APIs)
-- [Wireframe](#Wireframe)
 - [Tasks](#Tasks)
 - [Roles](#Roles)
 - [Successes](#Successes)
@@ -41,10 +40,6 @@ SO THAT I can make safe plans for shopping, working and living in my community.
 - COVID-19 Statistics: https://rapidapi.com/axisbits-axisbits-default/api/covid-19-statistics/ & https://covid-19-apis.postman.com/ Used to get local coronavirus related statistics.
 - Novel COVID API : Multi-source aggregated Covid-19 stats.
 - NewsAPI.org : Search worldwide news with code.
-
-## Wireframe ##
-
-Local search button pulls up info to populate map. Also fills info into Recent Cases, Hot Spots (maybe other categories) which animate down to reveal info when tapped/clicked. Local resources offers info on where to find help, food, distractions etc.
 
 ## Tasks ##
 
