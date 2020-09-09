@@ -5,6 +5,7 @@ A COVID-19 tracker application that fetches location-based updates, trending glo
 ## Table of Contents ##
 - [Team-Members](#Team-Members)
 - [User-Story](#User-Story)
+- [Usage](#-usage)
 - [APIs](#APIs)
 - [Wireframe](#Wireframe)
 - [Tasks](#Tasks)
@@ -27,6 +28,12 @@ A COVID-19 tracker application that fetches location-based updates, trending glo
 AS A concerned citizen of the world, looking out for myself and my loved ones.
 I WANT to get up to date information on the spread of COVID-19 in my area.
 SO THAT I can make safe plans for shopping, working and living in my community.
+
+## Usage ##
+
+- Open gitbash on Windows or Terminal on Mac
+- Git clone https://github.com/chaseyb/COVID-19-Tracker.git
+- Enjoy!
 
 ## APIs
 
