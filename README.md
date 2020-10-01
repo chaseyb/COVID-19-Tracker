@@ -54,7 +54,7 @@ SO THAT I can make safe plans for shopping, working and living in my community.
 
 * Chase - Map & Global Stats API, Frontend & CSS styling.
 * David - News, Testing & additional Stats API, plus some CSS.
-* Maurice - Map API, Frontend & CSS styling. 
+* Maurice - Frontend & CSS styling. 
 
 ## Successes ##
 
