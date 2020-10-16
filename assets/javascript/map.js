@@ -251,7 +251,7 @@ function renderMap() {
         });
     });
 }
-////////////////////////////////////////////////////////////////////////////////////////////////////
+
 async function initializeApp() {
     setReferences();
     doEventBindings();
@@ -265,11 +265,19 @@ async function initializeApp() {
 
 async function performAsyncCall() {
     const response = await fetch(`${baseUrlEndPoint}`);
-    const data = await response.json();;
+    const data = await response.json();
+    // .latest is the data being mapped to html in renderMap()
     coronaData.latest = data;
-    console.log(coronaData.latest);
+    // .locations is looped to the mapbox in populateLocations()
+    coronaData.locations = data.map((country) => (
+        {
+            key: country.countryInfo.iso2,
+            value: country.country
+        }
+    ))
+    console.log(coronaData.locations);
+    countriesWithCountryCodes = coronaData.locations;
 }
-///////////////////////////////////////////////////////////////////////////////////////////////
 
 function renderUI(world = true) {
     let html = '';
