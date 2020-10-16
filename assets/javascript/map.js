@@ -99,7 +99,7 @@ function renderMap() {
                         name: 'urn:ogc:def:crs:OGC:1.3:CRS84',
                     },
                 },
-                //////////////////////////////////////////////////////////////////////////////////////////////////
+
                 features: await Promise.all(coronaData.latest.map(async location => {
                         const placeName = await geocodeReverseFromLatLngToPlace(
                             location.countryInfo.lat,
